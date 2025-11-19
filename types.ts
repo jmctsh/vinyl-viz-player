@@ -1,5 +1,5 @@
 export interface Track {
-  audioUrl: string;
+  audioUrl: string | null;
   coverUrl: string | null;
   title: string;
   artist?: string;

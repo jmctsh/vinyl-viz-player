@@ -50,7 +50,7 @@ const THEMES: Theme[] = [
 
 const App: React.FC = () => {
   const [track, setTrack] = useState<Track>({
-    audioUrl: '',
+    audioUrl: null,
     coverUrl: null,
     title: 'UPLOAD MUSIC',
     artist: '',
@@ -228,7 +228,7 @@ const App: React.FC = () => {
       {/* Audio Element */}
       <audio
         ref={audioRef}
-        src={track.audioUrl}
+        src={track.audioUrl ?? undefined}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onEnded={handleEnded}

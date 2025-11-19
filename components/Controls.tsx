@@ -97,7 +97,7 @@ export const Controls: React.FC<ControlsProps> = ({
               <Upload size={18} />
             </button>
             <span className="absolute -top-10 left-0 text-[10px] text-zinc-400 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-zinc-900/90 px-3 py-1.5 rounded border border-zinc-800 pointer-events-none backdrop-blur-md">
-              Upload Song
+              上传音乐
             </span>
           </div>
 
@@ -116,7 +116,7 @@ export const Controls: React.FC<ControlsProps> = ({
               <ImageIcon size={18} />
             </button>
             <span className="absolute -top-10 left-0 text-[10px] text-zinc-400 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-zinc-900/90 px-3 py-1.5 rounded border border-zinc-800 pointer-events-none backdrop-blur-md">
-              Upload Cover
+              上传封面
             </span>
           </div>
         </div>
@@ -151,7 +151,7 @@ export const Controls: React.FC<ControlsProps> = ({
           >
              {hideUI ? <EyeOff size={18} /> : <Monitor size={18} />}
              <span className="absolute -top-10 right-0 text-[10px] text-zinc-400 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-zinc-900/90 px-3 py-1.5 rounded border border-zinc-800 pointer-events-none backdrop-blur-md">
-              Cinema Mode
+              影院模式(按esc退出)
             </span>
           </button>
         </div>
