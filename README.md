@@ -1,5 +1,5 @@
 <div align="center">
-<img src="display.png" alt="项目界面展示" />
+<img src="display1.png" alt="项目界面展示" />
 </div>
 
 ## Run and deploy your AI Studio app
